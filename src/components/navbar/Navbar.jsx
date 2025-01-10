@@ -16,9 +16,15 @@ const Navbar = () => {
       <div className={styles.logo}>Stev Blog</div>
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/">Home</Link>
-        <Link href="/">About</Link>
-        <Link href="/">Contact</Link>
+        <Link href="/" className={styles.link}>
+          Home
+        </Link>
+        <Link href="/" className={styles.link}>
+          About
+        </Link>
+        <Link href="/" className={styles.link}>
+          Contact
+        </Link>
         <AuthLinks />
       </div>
     </div>
