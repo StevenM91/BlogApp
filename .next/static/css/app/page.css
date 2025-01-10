@@ -55,10 +55,108 @@
   width: max-content;
 }
 
+@media screen and (max-width: 1280px) {
+  .featured_title__rFWcP {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .featured_title__rFWcP {
+    font-size: 64px;
+  }
+
+  .featured_imgContainer__phBYF {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .featured_title__rFWcP {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .featured_title__rFWcP {
+    font-size: 36px;
+  }
+}
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/categoryList/categoryList.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.categoryList_container__s6HpR {
+}
 
+.categoryList_title__8DsfE {
+  margin: 50px 0px;
+}
+
+.categoryList_categories__JjFld {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.categoryList_category__kGfZ1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  width: 15%;
+  height: 80px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.categoryList_category__kGfZ1.categoryList_style__BIpo_ {
+  background: #57c4ff31;
+}
+.categoryList_category__kGfZ1.categoryList_fashion__GFI8t {
+  background: #fa85c731;
+}
+.categoryList_category__kGfZ1.categoryList_food__AaDJS {
+  background: #7fb88133;
+}
+.categoryList_category__kGfZ1.categoryList_travel__gnqt1 {
+  background: #ff795736;
+}
+.categoryList_category__kGfZ1.categoryList_culture__N8ciR {
+  background: #ffb04f45;
+}
+.categoryList_category__kGfZ1.categoryList_coding__nDVNj {
+  background: #5e4fff31;
+}
+
+.categoryList_image__DU_oJ {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  .categoryList_category__kGfZ1 {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .categoryList_category__kGfZ1 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .categoryList_category__kGfZ1 {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .categoryList_category__kGfZ1 {
+    width: 100%;
+  }
+}
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/pagination/pagination.module.css ***!
