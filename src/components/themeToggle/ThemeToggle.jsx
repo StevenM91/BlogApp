@@ -8,8 +8,6 @@ import { ThemeContext } from "@/context/ThemeContext";
 const ThemeToggle = () => {
   const { toogle, theme } = useContext(ThemeContext);
 
-  console.log(theme);
-
   return (
     <div
       className={styles.container}
