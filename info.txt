@@ -2,3 +2,11 @@ Pour la connexion AuthJs et google, importer le code dans le fichier route et cr
 Créer un Id Client OAuth
 Dans l'url de redirection autorisée mettre le chemin complet de l'authentification exemple : http://localhost:3000/api/auth/callback/google
 Mettre le google_id et le google_secret dans le .env
+
+Pour ajouter le fournisseur de la database à Prisma l'init directement depuis la console 
+npx prisma init --datasource-provider mongodb
+
+Pour générer notre bases de données :
+npx prisma generate
+
+npx prisma studio (fonctionnalité prisma) permet de voir nos information avec prisma les connexion client post ... tout ce qui a été connecté avec notre bases de données
