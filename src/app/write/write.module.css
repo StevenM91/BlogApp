@@ -1,4 +1,14 @@
 .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  margin-left: 50px;
+  width: max-content;
 }
 
 .editor {
@@ -13,7 +23,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: transparent;
+  background-color: transparent;
   border: 1px solid var(--textColor);
   display: flex;
   align-items: center;
@@ -28,7 +38,7 @@
 .add {
   display: flex;
   gap: 20px;
-  background: var(--bg);
+  background-color: var(--bg);
   position: absolute;
   z-index: 999;
   width: 100%;
@@ -40,7 +50,8 @@
   font-size: 64px;
   border: none;
   outline: none;
-  background: transparent;
+  background-color: transparent;
+  color: var(--textColor);
 }
 
 .input::placeholder {
@@ -53,11 +64,11 @@
 
 .publish {
   position: absolute;
-  top: 30px;
-  right: 20px;
+  top: 0px;
+  right: 0px;
   padding: 10px 20px;
   border: none;
-  background: #1a8917;
+  background-color: #1a8917;
   color: white;
   cursor: pointer;
   border-radius: 20px;

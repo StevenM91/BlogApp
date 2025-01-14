@@ -37,14 +37,14 @@ const SinglePage = async ({ params }) => {
               </div>
             )}
             <div className={styles.userTextContainer}>
-              <span className={styles.username}>{data?.user.name} -</span>
-              <span className={styles.date}> 11.02.2024</span>
+              <span className={styles.username}>{data?.user.name}</span>
+              <span className={styles.date}>01.01.2024</span>
             </div>
           </div>
         </div>
         {data?.img && (
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" alt="" fill className={styles.image} />
+            <Image src={data.img} alt="" fill className={styles.image} />
           </div>
         )}
       </div>
@@ -53,7 +53,7 @@ const SinglePage = async ({ params }) => {
           <div
             className={styles.description}
             dangerouslySetInnerHTML={{ __html: data?.desc }}
-          ></div>
+          />
           <div className={styles.comment}>
             <Comments postSlug={slug} />
           </div>
