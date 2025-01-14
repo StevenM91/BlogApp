@@ -1,5 +1,9 @@
 {
   "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/write/page": "app/write/page.js",
   "/posts/[slug]/page": "app/posts/[slug]/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/api/comments/route": "app/api/comments/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/posts/[slug]/route": "app/api/posts/[slug]/route.js"
 }
